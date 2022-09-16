@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  background: linear-gradient(#a2d2ff, #EFB0c9); 
+  color: #ffffff;
+}
+#bff-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid pink;
+}
+h1, h2, h4, p {
+  text-shadow: 0px 0px 1px black ;
+}
+#baby-age {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+#baby-date {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;  
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-title {
+  margin-bottom: 0;
+}
+.gift-hint {
+  margin-top: 0;
+}
+.gift-img {
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  background-image: url("images/gift-cover.jpg");
+  border: 6px solid white;
+  border-radius: 10px;
+  background-size: cover;
+}
+#gift-img-happy:hover {
+  background-image: url("images/happy.gif");
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+#gift-img-hot:hover {
+  background-image: url("images/hot.gif");
+}
+#gift-img-genius:hover {
+  background-image: url("images/genius.gif");
+}
+#gift-img-badass:hover {
+  background-image: url("images/badass.gif");
+}
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/cheers.gif");
+}
+#footer {
+  width: 400px;
+  display: block;
+  margin: 40px auto 20px auto;
+  font-style: italic;
+  /* font-size: 15px; */
+}
+a {
+  color: white;
+}
+
